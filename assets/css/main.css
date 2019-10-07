@@ -21,6 +21,7 @@
 
 body{
   background-color: #202020;
+  overflow-x: hidden;
 }
 
 
@@ -71,7 +72,13 @@ video {
 
 #secondPage{
   height: 100vh;
-  background-color: red;
+  background-color: #202020;
+  overflow: hidden;
+}
+
+#secondPage p{
+  color: whitesmoke;
+  font-family: 'caviarDreams';
 }
 
 .defil{
@@ -80,4 +87,31 @@ video {
   top: 90vh;
   color: whitesmoke;
   text-decoration: underline;
+}
+
+h2{
+  padding-top: 120px;
+  color: whitesmoke;
+  font-size: 100px;
+  font-family: 'caviarDreamsBoldItalic';
+}
+
+#imgPack{
+  border-left: 2px grey solid;
+  height: 100vh;
+}
+
+#imgPackImg img{
+  width: 100%;
+  height: 90%;
+}
+
+#thirdPage{
+  height: 100vh;
+  background-color: #1b1b1b;
+}
+
+#thirdPage p{
+  color: whitesmoke;
+  font-family: 'caviarDreams';
 }
